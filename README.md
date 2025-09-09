@@ -24,16 +24,25 @@ We experiment with different prompt templates, replacing `{a}` with **genre pred
 ### (1) A musician whose music style is {a} and {b}.
 <img src="https://drive.google.com/uc?export=view&id=1d4E4_otNC7CNWVTJdfxTrlZOYOskKc9I" height="200"/>
 
-- Assumption：sentence is too long
+- Assumption：Sentence is too long
   
 ### (2) A musician who is {a} and {b}.
 <img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
 
-A musician who is {a} and {b}.
-A man who is {a} and {b}.
-musician, {a}, {b}
-man, {a}, {b}
-man, music, {a}, {b}
+### (3) A musician who is {a} and {b}.
+<img src="https://drive.google.com/uc?export=view&id=10VIv1gwQ2jahgnPagXfAfQwGFJknKthg" height="200"/>
+
+### (4) A man who is {a} and {b}.
+<img src="https://drive.google.com/file/d/1hVwli2V-piGOrnO6bv_nGP7RhJlPc3eG/view?usp=share_link" height="200"/>
+
+### (5) musician, {a}, {b}
+<img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
+
+### (6) man, {a}, {b}
+<img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
+
+### (7) man, music, {a}, {b}
+<img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
 
 ---
 
