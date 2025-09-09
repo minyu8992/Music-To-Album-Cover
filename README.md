@@ -26,10 +26,12 @@ We experiment with different prompt templates, replacing `{a}` with **genre pred
 
 - Assumption：Sentence is too long
   
-### (2) A musician who is {a} and {b}. → the best
+### (2) A musician who is {a} and {b}.
 <img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
 
-### (3) A man who is {a} and {b}.
+- Assumption：Can't understand 'musician'
+
+### (3) A man who is {a} and {b}. → the best
 <img src="https://drive.google.com/uc?export=view&id=10VIv1gwQ2jahgnPagXfAfQwGFJknKthg" height="200"/>
 
 ### (4) musician, {a}, {b}
@@ -46,4 +48,5 @@ We experiment with different prompt templates, replacing `{a}` with **genre pred
 ## 4. Diffusion Model Deployment
 - Model: **small-stable-diffusion-v0**
 <img src="https://drive.google.com/uc?export=view&id=1lYz-sNRUtliQT_Xz1bl9U1prE6MnUIJp" height="250"/>
+
 - Deployed on: **NVIDIA Jetson Xavier**
