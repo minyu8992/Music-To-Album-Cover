@@ -22,11 +22,12 @@ Input (music) → Classifier (genre & emotion) → Prompt → Diffusion Model �
 We experiment with different prompt templates, replacing `{a}` with **genre prediction** and `{b}` with **emotion prediction**:
 
 ### (1) A musician whose music style is {a} and {b}.
-<img src="https://drive.google.com/uc?export=view&id=1d4E4_otNC7CNWVTJdfxTrlZOYOskKc9I" height="150"/>
+<img src="https://drive.google.com/uc?export=view&id=1d4E4_otNC7CNWVTJdfxTrlZOYOskKc9I" height="200"/>
+
 - Assumption：sentence is too long
   
 ### (2) A musician who is {a} and {b}.
-<img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="150"/>
+<img src="https://drive.google.com/uc?export=view&id=1z9rLeG9BV4cBPzaFbSYLSQqYdr6aPUmC" height="200"/>
 
 A musician who is {a} and {b}.
 A man who is {a} and {b}.
